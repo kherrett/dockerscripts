@@ -1,5 +1,7 @@
 # dockerscripts
 
+These scripts should be set as the ENTRYPOINT in a dockerfile. The resulting image can then be run as a container, and you may pass values as defined below.
+
 nessus.sh will configure a Nessus Scanner to connect to Nessus Cloud. 
 
 Usage:
