@@ -29,7 +29,7 @@ fi
 echo "Host is set to $host"
 echo "Port is set to $port"
 echo "Key is set to $key"
-echo "Agent name is set to $scanner_name"
+echo "Scanner name is set to $scanner_name"
 
 #Link the scanner
 /opt/nessus/sbin/nessuscli managed link --host="$host" --key="$key" --port="$port" --name="""$scanner_name"""
