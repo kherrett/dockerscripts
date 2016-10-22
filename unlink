@@ -1,0 +1,1 @@
+Unlink scanners and agents by exec to container , then shutdown the container 
