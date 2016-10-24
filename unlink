@@ -1,1 +1,5 @@
-Unlink scanners and agents by exec to container , then shutdown the container 
+#!/bin/ba
+#Unlink scanners and agents via 'exe'c to container , then shutdown the container 
+docker exec $(docker ps -q) /opt/nessus/sbin/nessuscli managed unlink
+docker exec $(docker ps -q) /opt/nessus_agent/sbin/nessuscli agent unlink
+
